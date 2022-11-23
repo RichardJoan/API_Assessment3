@@ -31,7 +31,7 @@ public class TC001_CreateIncident extends RESTAssuredBase{
 		verifyResponseCode(response, 201);
 		
 		
-		verifyContentWithKey(response, "result.short_description", "This is Rest Assured Automation framework - Makaia");
+		verifyContentWithKey(response, "result.short_description", "Rest Assured Automation framework(Makaia)");
 		sysID = getContentWithKey(response, "result.sys_id");
 	}
 }
